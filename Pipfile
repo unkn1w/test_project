@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "==3.0.1"
+django-rest-framework = "*"
+psycopg2-binary = "==2.8.6"
+django-environ = "*"
+djangorestframework-simplejwt = "*"
+graphene-django = "*"
+web3 = "<= 5.2.8"
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+isort = "*"
+factory-boy = "*"
+install = "*"
+pytest-django = "*"
+
+[requires]
+python_version = "3.8"
